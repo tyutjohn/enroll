@@ -1,0 +1,154 @@
+[2020-05-11T21:24:25.726] [ERROR] application - TypeError: Cannot read property 'path' of undefined
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:383:26
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-static@5.0.0@koa-static\index.js:53:9)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-11T21:25:49.889] [ERROR] application - TypeError: Cannot read property 'path' of undefined
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:383:26
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-static@5.0.0@koa-static\index.js:53:9)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-11T21:34:49.434] [ERROR] application - TypeError: Cannot read property 'path' of undefined
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:383:26
+    at async serve (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-static@5.0.0@koa-static\index.js:53:9)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-11T21:57:32.749] [ERROR] application - MongooseError [CastError]: Cast to number failed for value "工作组管理员" at path "rank"
+    at new CastError (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at model.Query.exec (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\query.js:4340:21)
+    at model.Query.Query.then (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\query.js:4432:15)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:301:16
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-static@5.0.0@koa-static\index.js:53:9)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7 {
+  message: 'Cast to number failed for value "工作组管理员" at path "rank"',
+  name: 'CastError',
+  messageFormat: undefined,
+  stringValue: '"工作组管理员"',
+  kind: undefined,
+  value: '工作组管理员',
+  path: 'rank',
+  reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(!isNaN(val))
+  
+      at castNumber (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\cast\number.js:28:10)
+      at SchemaNumber.cast (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\schema\number.js:382:12)
+      at SchemaNumber.SchemaType.applySetters (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\schematype.js:1016:12)
+      at SchemaNumber.SchemaType._castForQuery (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\schematype.js:1430:15)
+      at SchemaNumber.castForQuery (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\schema\number.js:436:14)
+      at SchemaNumber.SchemaType.castForQueryWrapper (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\schematype.js:1399:15)
+      at castUpdateVal (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\helpers\query\castUpdate.js:518:19)
+      at walkUpdatePath (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\helpers\query\castUpdate.js:345:22)
+      at castUpdate (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\helpers\query\castUpdate.js:92:7)
+      at model.Query._castUpdate (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\query.js:4508:10)
+      at castDoc (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\query.js:4536:18)
+      at model.Query._updateThunk (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\query.js:3727:20)
+      at model.Query.<anonymous> (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\query.js:3822:23)
+      at model.Query._wrappedThunk [as _updateOne] (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+      at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\kareem\index.js:369:33
+      at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '=='
+  }
+}
+[2020-05-11T21:58:56.250] [ERROR] application - MongooseError [CastError]: Cast to number failed for value "工作组管理员" at path "rank"
+    at new CastError (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at model.Query.exec (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\query.js:4340:21)
+    at model.Query.Query.then (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\query.js:4432:15)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:301:16
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-static@5.0.0@koa-static\index.js:53:9)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7 {
+  message: 'Cast to number failed for value "工作组管理员" at path "rank"',
+  name: 'CastError',
+  messageFormat: undefined,
+  stringValue: '"工作组管理员"',
+  kind: undefined,
+  value: '工作组管理员',
+  path: 'rank',
+  reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(!isNaN(val))
+  
+      at castNumber (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\cast\number.js:28:10)
+      at SchemaNumber.cast (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\schema\number.js:382:12)
+      at SchemaNumber.SchemaType.applySetters (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\schematype.js:1016:12)
+      at SchemaNumber.SchemaType._castForQuery (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\schematype.js:1430:15)
+      at SchemaNumber.castForQuery (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\schema\number.js:436:14)
+      at SchemaNumber.SchemaType.castForQueryWrapper (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\schematype.js:1399:15)
+      at castUpdateVal (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\helpers\query\castUpdate.js:518:19)
+      at walkUpdatePath (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\helpers\query\castUpdate.js:345:22)
+      at castUpdate (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\helpers\query\castUpdate.js:92:7)
+      at model.Query._castUpdate (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\query.js:4508:10)
+      at castDoc (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\query.js:4536:18)
+      at model.Query._updateThunk (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\query.js:3727:20)
+      at model.Query.<anonymous> (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\query.js:3822:23)
+      at model.Query._wrappedThunk [as _updateOne] (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+      at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\kareem\index.js:369:33
+      at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '=='
+  }
+}
+[2020-05-11T21:59:15.609] [ERROR] application - MongooseError [CastError]: Cast to number failed for value "工作组管理员" at path "rank"
+    at new CastError (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at model.Query.exec (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\query.js:4340:21)
+    at model.Query.Query.then (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\query.js:4432:15)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:301:16
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-static@5.0.0@koa-static\index.js:53:9)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7 {
+  message: 'Cast to number failed for value "工作组管理员" at path "rank"',
+  name: 'CastError',
+  messageFormat: undefined,
+  stringValue: '"工作组管理员"',
+  kind: undefined,
+  value: '工作组管理员',
+  path: 'rank',
+  reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(!isNaN(val))
+  
+      at castNumber (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\cast\number.js:28:10)
+      at SchemaNumber.cast (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\schema\number.js:382:12)
+      at SchemaNumber.SchemaType.applySetters (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\schematype.js:1016:12)
+      at SchemaNumber.SchemaType._castForQuery (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\schematype.js:1430:15)
+      at SchemaNumber.castForQuery (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\schema\number.js:436:14)
+      at SchemaNumber.SchemaType.castForQueryWrapper (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\schematype.js:1399:15)
+      at castUpdateVal (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\helpers\query\castUpdate.js:518:19)
+      at walkUpdatePath (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\helpers\query\castUpdate.js:345:22)
+      at castUpdate (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\helpers\query\castUpdate.js:92:7)
+      at model.Query._castUpdate (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\query.js:4508:10)
+      at castDoc (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\query.js:4536:18)
+      at model.Query._updateThunk (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\query.js:3727:20)
+      at model.Query.<anonymous> (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\query.js:3822:23)
+      at model.Query._wrappedThunk [as _updateOne] (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+      at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\kareem\index.js:369:33
+      at processTicksAndRejections (internal/process/task_queues.js:75:11) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '=='
+  }
+}
