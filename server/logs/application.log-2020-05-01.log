@@ -1,5 +1,0 @@
-[2020-05-01T18:39:52.703] [ERROR] application - ReferenceError: result1 is not defined
-    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\sms.js:302:5
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
-    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
