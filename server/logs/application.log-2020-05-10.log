@@ -1,0 +1,281 @@
+[2020-05-10T17:47:16.278] [ERROR] application - TypeError: Expected string but received a number.
+    at assertString (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\util\assertString.js:28:11)
+    at Object.isEmpty (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\isEmpty.js:19:29)
+    at validateRegisterInput (C:\Users\tyutj\Desktop\project-V2.0\server\validation\admin\register.js:42:18)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:114:9
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-10T17:47:17.408] [ERROR] application - TypeError: Expected string but received a number.
+    at assertString (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\util\assertString.js:28:11)
+    at Object.isEmpty (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\isEmpty.js:19:29)
+    at validateRegisterInput (C:\Users\tyutj\Desktop\project-V2.0\server\validation\admin\register.js:42:18)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:114:9
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-10T17:47:48.151] [ERROR] application - TypeError: Expected string but received a number.
+    at assertString (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\util\assertString.js:28:11)
+    at Object.isEmpty (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\isEmpty.js:19:29)
+    at validateRegisterInput (C:\Users\tyutj\Desktop\project-V2.0\server\validation\admin\register.js:42:18)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:114:9
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-10T17:51:16.117] [ERROR] application - TypeError: Expected string but received a number.
+    at assertString (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\util\assertString.js:28:11)
+    at Object.isEmpty (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\isEmpty.js:19:29)
+    at validateRegisterInput (C:\Users\tyutj\Desktop\project-V2.0\server\validation\admin\register.js:42:18)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:114:9
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-10T17:52:43.927] [ERROR] application - TypeError: Expected string but received a number.
+    at assertString (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\util\assertString.js:28:11)
+    at Object.isEmpty (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\isEmpty.js:19:29)
+    at validateRegisterInput (C:\Users\tyutj\Desktop\project-V2.0\server\validation\admin\register.js:42:18)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:114:9
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-10T17:52:45.361] [ERROR] application - TypeError: Expected string but received a number.
+    at assertString (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\util\assertString.js:28:11)
+    at Object.isEmpty (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\isEmpty.js:19:29)
+    at validateRegisterInput (C:\Users\tyutj\Desktop\project-V2.0\server\validation\admin\register.js:42:18)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:114:9
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-10T17:54:45.326] [ERROR] application - TypeError: Expected string but received a number.
+    at assertString (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\util\assertString.js:28:11)
+    at Object.isEmpty (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\isEmpty.js:19:29)
+    at validateRegisterInput (C:\Users\tyutj\Desktop\project-V2.0\server\validation\admin\register.js:42:18)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:114:9
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-10T18:00:28.793] [ERROR] application - TypeError: Expected string but received a number.
+    at assertString (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\util\assertString.js:28:11)
+    at Object.isEmpty (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\isEmpty.js:19:29)
+    at validateRegisterInput (C:\Users\tyutj\Desktop\project-V2.0\server\validation\admin\register.js:42:18)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:114:9
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-10T18:00:53.234] [ERROR] application - TypeError: Expected string but received a number.
+    at assertString (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\util\assertString.js:28:11)
+    at Object.isEmpty (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\isEmpty.js:19:29)
+    at validateRegisterInput (C:\Users\tyutj\Desktop\project-V2.0\server\validation\admin\register.js:42:18)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:114:9
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-10T18:01:57.979] [ERROR] application - TypeError: Expected string but received a number.
+    at assertString (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\util\assertString.js:28:11)
+    at Object.isEmpty (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\isEmpty.js:19:29)
+    at validateRegisterInput (C:\Users\tyutj\Desktop\project-V2.0\server\validation\admin\register.js:42:18)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:114:9
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-10T18:02:03.412] [ERROR] application - TypeError: Expected string but received a number.
+    at assertString (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\util\assertString.js:28:11)
+    at Object.isEmpty (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\isEmpty.js:19:29)
+    at validateRegisterInput (C:\Users\tyutj\Desktop\project-V2.0\server\validation\admin\register.js:42:18)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:114:9
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-10T18:03:21.891] [ERROR] application - TypeError: Expected string but received a number.
+    at assertString (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\util\assertString.js:28:11)
+    at Object.isEmpty (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\isEmpty.js:19:29)
+    at validateRegisterInput (C:\Users\tyutj\Desktop\project-V2.0\server\validation\admin\register.js:42:18)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:114:9
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-10T18:07:52.558] [ERROR] application - TypeError: Expected string but received a number.
+    at assertString (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\util\assertString.js:28:11)
+    at Object.isEmpty (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\isEmpty.js:19:29)
+    at validateRegisterInput (C:\Users\tyutj\Desktop\project-V2.0\server\validation\admin\register.js:42:18)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:114:9
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-10T18:07:53.711] [ERROR] application - TypeError: Expected string but received a number.
+    at assertString (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\util\assertString.js:28:11)
+    at Object.isEmpty (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\isEmpty.js:19:29)
+    at validateRegisterInput (C:\Users\tyutj\Desktop\project-V2.0\server\validation\admin\register.js:42:18)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:114:9
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-10T18:07:54.395] [ERROR] application - TypeError: Expected string but received a number.
+    at assertString (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\util\assertString.js:28:11)
+    at Object.isEmpty (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\isEmpty.js:19:29)
+    at validateRegisterInput (C:\Users\tyutj\Desktop\project-V2.0\server\validation\admin\register.js:42:18)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:114:9
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-10T18:07:59.068] [ERROR] application - TypeError: Expected string but received a number.
+    at assertString (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\util\assertString.js:28:11)
+    at Object.isEmpty (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\isEmpty.js:19:29)
+    at validateRegisterInput (C:\Users\tyutj\Desktop\project-V2.0\server\validation\admin\register.js:42:18)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:114:9
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-10T18:10:02.126] [ERROR] application - TypeError: Expected string but received a number.
+    at assertString (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\util\assertString.js:28:11)
+    at Object.isEmpty (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\isEmpty.js:19:29)
+    at validateRegisterInput (C:\Users\tyutj\Desktop\project-V2.0\server\validation\admin\register.js:42:18)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:114:9
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-10T18:10:24.278] [ERROR] application - TypeError: Expected string but received a number.
+    at assertString (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\util\assertString.js:28:11)
+    at Object.isEmpty (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\isEmpty.js:19:29)
+    at validateRegisterInput (C:\Users\tyutj\Desktop\project-V2.0\server\validation\admin\register.js:42:18)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:114:9
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-10T18:10:47.409] [ERROR] application - TypeError: Expected string but received a number.
+    at assertString (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\util\assertString.js:28:11)
+    at Object.isEmpty (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\isEmpty.js:19:29)
+    at validateRegisterInput (C:\Users\tyutj\Desktop\project-V2.0\server\validation\admin\register.js:42:18)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:114:9
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-10T18:11:49.537] [ERROR] application - TypeError: Expected string but received a number.
+    at assertString (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\util\assertString.js:28:11)
+    at Object.isEmpty (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\validator\lib\isEmpty.js:19:29)
+    at validateRegisterInput (C:\Users\tyutj\Desktop\project-V2.0\server\validation\admin\register.js:42:18)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:114:9
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-10T20:24:58.881] [ERROR] application - ReferenceError: next is not defined
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:377:45
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-10T20:25:04.767] [ERROR] application - ReferenceError: next is not defined
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:377:45
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-10T22:07:36.704] [ERROR] application - TypeError: save is not a function
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:388:15
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-10T22:15:51.613] [ERROR] application - TypeError: Cannot read property 'path' of undefined
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:379:25
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-10T22:16:13.107] [ERROR] application - TypeError: Cannot read property 'path' of undefined
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:379:25
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-10T22:16:51.157] [ERROR] application - TypeError: Cannot read property 'path' of undefined
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:379:25
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-10T22:17:03.454] [ERROR] application - TypeError: Cannot read property 'path' of undefined
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:379:25
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-10T22:18:13.016] [ERROR] application - TypeError: Cannot read property 'path' of undefined
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:379:25
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-10T22:19:15.894] [ERROR] application - TypeError: Cannot read property 'path' of undefined
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:379:25
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-10T22:19:47.424] [ERROR] application - TypeError: Cannot read property 'path' of undefined
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:379:25
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-10T22:20:04.471] [ERROR] application - TypeError: Cannot read property 'path' of undefined
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\admins.js:379:25
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7

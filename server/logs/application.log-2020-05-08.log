@@ -1,0 +1,19 @@
+[2020-05-08T19:49:15.826] [ERROR] application - ReferenceError: cts is not defined
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\user.js:485:31
+    at dispatch (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-08T20:02:39.785] [ERROR] application - ReferenceError: pass_status is not defined
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\user.js:491:13
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\user.js:485:5
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+[2020-05-08T20:02:48.386] [ERROR] application - ReferenceError: pass_status is not defined
+    at C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\user.js:491:13
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\routes\api\user.js:485:5
+    at async bodyParser (C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\tyutj\Desktop\project-V2.0\server\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
